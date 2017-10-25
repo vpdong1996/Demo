@@ -14,13 +14,14 @@
     "babel-preset-react": "6.x.x",
     "babel-preset-stage-2": "6.x.x",
     "babel-root-slash-import": "1.x.x",
-    "chai": "3.x.x",
+    "chai": "^3.5.0",
     "enzyme": "1.x.x",
     "eslint": "1.10.x",
     "eslint-plugin-react": "3.15.x",
-    "mocha": "2.x.x",
+    "mocha": "^2.5.3",
     "react-addons-test-utils": "^0.14.6",
-    "sinon": "1.17.x"
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.14.0"
   },
   "dependencies": {
     "domready": "^1.0.8",
