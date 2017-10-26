@@ -1,12 +1,14 @@
 import React from 'react';
+import { Grid, Row, Col, PageHeader} from 'react-bootstrap';
+
 const Layout =({content}) =>(
-  <div>
-    <header>
-      <h1> Demo </h1>
-    </header>
-    <div>
-      {content()}
-    </div>
-  </div>
+  <Grid>
+    <Row>
+      <Col xs={12}>
+        <PageHeader> Demo </PageHeader>
+      </Col>
+    </Row>
+    {content()}
+  </Grid>
 );
 export default Layout;
